@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Swal from 'sweetalert2';
 // import md5 from 'md5';
-import crypto from 'crypto-js';
+//import crypto from 'crypto-js';
 import Cookies from 'universal-cookie';
 import logo from '../logo.svg';
 
