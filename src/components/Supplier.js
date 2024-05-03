@@ -39,7 +39,7 @@ function Supplier() {
         amount: amount
     }
 
-    fetch('https://scwserver.azurewebsites.net/v1/providers/transaction', {
+    fetch('https://scwserverb.azurewebsites.net/v1/providers/transaction', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

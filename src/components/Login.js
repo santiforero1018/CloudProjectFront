@@ -33,7 +33,7 @@ function Login() {
 
     console.log(password)
 
-    fetch('https://scwserver.azurewebsites.net/v1/users', {
+    fetch('https://scwserverb.azurewebsites.net/v1/users', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
